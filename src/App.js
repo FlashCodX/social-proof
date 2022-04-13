@@ -23,12 +23,11 @@ function App() {
   } = styles;
   return (
     <div className={container}>
-      <div className={bgContainer}>
-        <img src={bg_top} alt="bgtop" />
-        <img src={bg_bottom} alt="bgbot" />
-      </div>
-
       <main className={content}>
+        <div className={bgContainer}>
+          <img src={bg_top} alt="bgtop" />
+          <img src={bg_bottom} alt="bgbot" />
+        </div>
         <div className={topSection}>
           <div className={info}>
             <h1>10,000+ of our users love our products.</h1>
