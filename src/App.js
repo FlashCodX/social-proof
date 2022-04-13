@@ -119,7 +119,7 @@ function App() {
           </div>
         </div>
       </main>
-      <div className={attribution}>
+      <footer className={attribution}>
         Challenge by
         <a
           href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA"
@@ -136,7 +136,7 @@ function App() {
         >
           Luis Pinto.
         </a>
-      </div>
+      </footer>
     </div>
   );
 }
